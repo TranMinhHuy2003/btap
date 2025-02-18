@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Báo Tường Online</title>
+  <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(./img/hinh-nen-bau-troi-ban-ngay-3.jpg);
+        background-size: cover;
+        height: 200px;
+        background-repeat: no-repeat;
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        background: white;
+      }
+      section {
+        margin-bottom: 20px;
+      }
+      article {
+        margin: 0 20px;
+      }
+      h2 {
+        color: #3576e6;
+        margin-bottom: 10px;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .gallery img {
+        width: 100%;
+        max-width: 300px;
+        max-height: 400px;
+        margin: 8px;
+      }
+      .comments {
+        background: #eee;
+        padding: 20px;
+        margin: 0;
+      }
+      .comments p {
+        margin-bottom: 5px;
+      }
+      .comments textarea {
+        border-color: #ccc;
+        border-radius: 10px;
+        padding: 14px;
+      }
+      .comments button {
+        padding: 10px 14px;
+        margin-top: 10px;
+        color: #fff;
+        background-color: #3576e6;
+        border: none;
+        border-radius: 10px;
+      }
+      .comments button:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+      footer {
+        background: #222;
+        color: white;
+        padding: 20px;
+      }
+      footer h3 {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      footer ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 400px;
+      }
+      footer ul li {
+        list-style: none;
+        line-height: 24px;
+      }
+  </style>
+</head>
+<body>
+  <header>
+    <h3 class="header-text">THANH XUÂN GỬI LẠI</h3>  
+  </header>
+  <div class="container">
+    <section class="introduce">
+      <p>Tuổi học trò, quãng thời gian đẹp nhất trong cuộc đời mỗi người, nơi lưu giữ những kỷ niệm ngây ngô, những tiếng cười trong trẻo và cả những lần giận hờn vu vơ. <br> Đó là khoảng trời đầy ắp ước mơ, là hành trang quý giá theo ta suốt hành trình trưởng thành</p>
+    </section>
+    <div class="content">
+      <section class="left">
+        <article class="above">
+          <h3>Hồi ức</h3>
+          <p>Thời cấp 3 là những năm tháng thanh xuân tươi đẹp với biết bao kỷ niệm đáng nhớ. Đó là những giờ học sôi nổi, những lần ôn thi cùng nhau đến khuya, hay những buổi ra chơi đầy ắp tiếng cười. Nơi đó có thầy cô tận tâm, bạn bè gắn bó, và cả những rung động đầu đời ngây ngô. Dù thời gian trôi qua, những ký ức ấy vẫn mãi vẹn nguyên, trở thành một phần thanh xuân không thể nào quên.</p>
+        </article>
+        <article>
+          <h3>Chặng đường hôm nay</h3>
+          <p>Hy vọng khi đọc lại những dòng này, tất cả chúng tôi sẽ mỉm cười vì đã sống hết mình với tuổi trẻ. Dù cuộc sống có thể không như mong đợi, hãy luôn nhớ rằng mỗi thử thách đều là một bài học quý giá. Đừng quên những ước mơ từng ấp ủ, những người đã đồng hành và những kỷ niệm đẹp đã tạo nên con người tôi hôm nay. Hãy tiếp tục bước đi, mạnh mẽ và lạc quan, vì phía trước vẫn còn rất nhiều điều tuyệt vời đang chờ đón!</p>
+        </article>
+        <div class="video">
+          <h2>Thước phim cũ</h2>
+          <video width="320" height="240" controls>
+            <source src="./img/VID_20250218224531.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="audio">
+          <h2>Góc âm nhạc</h2>
+          <audio controls>
+            <source src="./audio/d0ce5e1fdb6ac9fe009e1262f3221f93.mp3" type="audio/mpeg">
+          </audio>       
+        </div>
+      </section>
+      <section class="right">
+        <h2>Mảnh ký ức</h2>
+        <div class="gallery">
+          <img src="./img/1664425579496.jpg" alt="Ảnh minh họa">
+          <img src="./img/DSCF0489.JPG" alt="Ảnh minh họa">
+          <img src="./img/IMG20220927145733.jpg" alt="Ảnh minh họa">
+          <img src="./img/IMG20221123143014.jpg" alt="Ảnh minh họa">
+          <img src="./img/retouch_2023100218412413.jpg" alt="Ảnh minh họa">
+          <img src="./img/retouch_2023100218474412.jpg" alt="Ảnh minh họa">
+        </div>
+      </section>
+    </div>
+    <section class="comments">
+      <h2>Góc Bình Luận</h2>
+      <p>Hãy để lại bình luận của bạn tại đây!</p>
+      <textarea rows="6" cols="70" placeholder="Nhập bình luận..."></textarea>
+      <br>
+      <button>Gửi</button>
+    </section>
+  </div>
+  <footer>
+    <h3>Thành viên nhóm:</h3>
+    <ul>
+      <div>
+        <li>Đỗ Hồ Quỳnh Thoa_27</li>
+        <li>Tăng Thị Đăng Thoa_28</li>
+        <li>Nguyễn Thị Thùy Trang_33</li>
+        <li>Nguyễn Kiều Trâm_34</li>
+      </div>
+      <div>
+        <li>Nguyễn Thị Ngọc Trâm_36</li>
+        <li>Tô Nguyễn Mai Trâm_37</li>
+        <li>Trần Yến Vy_44</li>
+        <li>Trần Y Quốc_25</li>
+      </div>
+    </ul>
+  </footer>
+</body>
+</html>

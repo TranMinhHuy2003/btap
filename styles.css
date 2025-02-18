@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.introduce {
+  text-align: center;
+  background-color: #c5d8ff;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.content {
+  display: flex;
+}
+
+.content h3 {
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+.content p {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.content .left {
+  width: 57%;
+}
+
+.content .left .above {
+  margin-bottom: 20px;
+}
+
+.content .right {
+  width: 43%;
+}
+
+.video, .audio {
+  margin-left: 20px;
+  margin-top: 50px;
+}
